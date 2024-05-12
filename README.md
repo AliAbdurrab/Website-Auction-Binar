@@ -15,7 +15,6 @@
 - React Bootstrap
 - Bootstrap
 - Axios
-- Backend: https://github.com/AldiAgeng/tokoku-api
 
 ## Info Team
 
