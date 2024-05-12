@@ -1,0 +1,218 @@
+.main {
+    padding-top: 124px;
+    margin-bottom: 109px;
+}
+
+.titleText {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.profileBox {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    padding: 0px 16px 0px 16px;
+    margin-top: 24px;
+    background: #FFFFFF;
+    /* Shadow/Low */
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.profileImg {
+    width: 48px;
+    height: 48px;    
+    border-radius: 12px;
+}
+
+.nameText{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000000;
+}
+
+.addressText {
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #8A8A8A;
+}
+
+.editText {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+    color: #151515;
+    text-decoration: none;
+}
+
+.btnEdit{
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.btnEdit:hover {
+    color: white;
+    background: #1363DF;
+    border: #1363DF;
+}
+
+.content{
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+}
+
+.categoryBox {
+    width: 268px;
+    height: max-content;
+    background: #FFFFFF;
+    /* Shadow/High */
+    padding: 24px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+    border-radius: 16px;
+}
+
+.categoryText {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #000000;
+}
+
+.categoryList {
+    width: 220px;
+    height: 152px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+    color: #000000;
+}
+
+.listOption {
+    border: none !important;
+    padding: 12px 0px 12px 0px !important;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.15) !important;
+}
+
+.listOption2 {
+    border: none !important;
+    padding: 12px 0px 0px 0px !important;
+}
+
+.listText {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px !important;
+}
+
+.listTextColor {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0px !important;
+    color: #47B5FF;
+}
+
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: 32px;
+}
+
+.addBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 206.67px;
+    height: 289px;
+    /* Neutral/02 */
+    border: 1px dashed #D0D0D0;
+    border-radius: 4px;
+}
+
+.addBtn {
+    text-align: center;
+    color: #8A8A8A;
+    text-decoration: none;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+.contentDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.imgContent {
+    width: 276px;
+    height: 194px;
+}
+
+.contentText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    text-align: center;
+    color: #151515;
+    margin-top: 24px;
+}
+
+.productCard {
+    padding: 8px 8px 6px;
+    min-width: 210px !important;
+    gap: 8px;
+    min-height: 289px;
+    max-height: max-content;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+  }
+  
+  .cardBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 192px;
+    height: 192px;
+    padding: 0px;
+  }
+
+  .imgCard {
+    max-width: 192px;
+    max-height: 192px;
+    border-radius: 4px;
+  }
+  
+  .bodyCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 192px;
+    padding: 6px 0px 0px 0px !important;
+    border-top: 1px solid rgba(0, 0, 0, 0.15);
+  }
+
+  .titleText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 4px;
+  }

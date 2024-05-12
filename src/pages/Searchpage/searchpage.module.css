@@ -1,0 +1,33 @@
+.cardList {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.categoryList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.imgIcon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.styleText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: white;
+    margin: 0px;
+    padding: 4px;
+}
+
+.textTitle {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+}

@@ -1,0 +1,58 @@
+.Menu {
+  width: 340px;
+  max-height: 297px;
+  overflow: auto;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 8px !important;
+  margin: 0px !important;
+  padding: 0px !important;
+}
+
+.boxNotif {
+  display: flex;
+  flex-direction: row;
+  height: max-content;
+  padding-left: 12px;
+  padding-right: 12px;
+  padding-bottom: 12px;
+  padding-top: 12px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.imgBox {
+  max-width: 68px;
+  height: min-content;
+  margin-right: 12px;
+}
+
+.img {
+  width: 48px;
+  height: 48px;
+  border-radius: 12px;
+  flex: none;
+}
+
+.boxContent {
+  width: 58%;
+}
+
+.time {
+  width: auto;
+}
+
+.textGray {
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 14px;
+  margin-bottom: 0px;
+  color: #8A8A8A;
+}
+
+.textContent {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  color: #000000;
+}
+

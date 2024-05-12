@@ -1,0 +1,59 @@
+.navbars {
+    width: 100%;
+    height: 84px;
+    background: #DFF6FF;
+    padding-top: 0px !important;
+}
+
+.logo {
+    width: max-content;
+    height: 48px;
+}
+
+.formSearch {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    width: 100% !important;
+    height: min-content;
+    background: white;
+    margin-top: 8px;
+    padding: 3px 0px 3px 0px;
+    border: 1px solid #EEEEEE;
+    border-radius: 16px;
+}
+
+.formInput {
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 20px !important;
+
+    border: none !important;
+    border-radius: 16px !important;
+    box-shadow: none !important;
+}
+
+.iconSearch {
+    border: none;
+    border-top-right-radius: 25px;
+}
+
+.btnText {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 0px;
+    padding: 4px;
+}
+
+.button {
+    width: max-content;
+    height: max-content;
+}
+
+.fontTitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 30px;
+    color: #47b5ff !important;
+}
